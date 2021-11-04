@@ -51,3 +51,5 @@ WHERE emp_no < 10000;
 
 DELETE FROM employees 
 WHERE emp_no = 10048 OR emp_no = 10099 OR emp_no = 10234 OR emp_no = 20089;
+
+
