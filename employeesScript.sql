@@ -1,8 +1,8 @@
--- 1. Show all employees who were born after 1965-01-01
+-- 1. Show all employees who were born before 1965-01-01
 
 SELECT * 
 FROM employees e
-WHERE birth_date > '1965-01-01';
+WHERE birth_date < '1965-01-01';
 
 -- 2. Show all employees who are female and were hired after 1990
 
