@@ -1,4 +1,4 @@
--- 1. Show all employees who were born before 1965-01-01
+-- 1. Show all employees who were born after 1965-01-01
 
 SELECT * 
 FROM employees e
