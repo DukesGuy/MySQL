@@ -23,3 +23,4 @@ INNER JOIN dept_emp de ON s.emp_no = de.emp_no
 INNER JOIN departments d ON d.dept_no = de.dept_no
 WHERE d.dept_name = 'Marketing'
 AND YEAR(s.from_date) >= 1990 AND YEAR(s.to_date) <= 1992
+
