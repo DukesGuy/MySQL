@@ -31,5 +31,3 @@ create table comment (
     foreign key (username) references user (username),
     foreign key (post_id) references post (post_id)
 );
-
-desc comment;
